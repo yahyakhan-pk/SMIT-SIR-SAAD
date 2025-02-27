@@ -1,0 +1,124 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+.nav > a:hover{
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 2px white;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    margin: 220px;
+}
+h1:hover{
+    
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px white;
+}
+.content{
+    height: 300px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.textbox{
+    height: 250px;
+    width: 30%;
+    /* background-color: white; */
+}
+.imagebox{
+    height: 250px;
+    width: 40%;
+}
+button{
+    height: 40px;
+    width: 45%;
+    color: white;
+    background-color: orange;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+#picutre{
+    height: 250px;
+    width: 100%;
+}
+
+
+ @media only screen and (max-width:600px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 10px;
+    }
+    .textbox{
+        width: 80%;
+    }
+    button{
+        width: 45%;
+        margin-top: 10px;
+    }
+    .imagebox{
+        width: 80%;
+        /* margin-top: 20px; */
+     } 
+     #picture{
+        width: 100%;
+        position: fixed;
+    }
+} 
+
+
+@media only screen and (max-width:600px){
+    .nav {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .nav > a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1 {
+         margin: 10px;
+    }
+} 
+ 
+
+ 

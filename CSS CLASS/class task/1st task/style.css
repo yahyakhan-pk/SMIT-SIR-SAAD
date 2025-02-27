@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    text-shadow: 5px 5px 8px black;
+}
+h6{
+    color: blue;
+}
+span{
+    color: blue;
+}
+h3{
+    color: blue;
+    text-shadow: 5px 5px 8px black;
+}
+#para{
+    text-align: right;
+}
+P{
+    text-align: left;
+    line-height: 25px;  
+}
+
+
+
+
+
+/* border bottom:clone solid black; */

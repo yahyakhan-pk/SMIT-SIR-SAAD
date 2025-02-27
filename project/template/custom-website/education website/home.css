@@ -1,0 +1,446 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container{
+    height: 450px;
+    width: 100%;
+    border: 1px solid white;
+}
+    
+    
+.box1{
+    height: 300px;
+    width: 350px;
+    /* border: 1px solid red; */
+    margin-top: 9%;
+    margin-left: 1%;
+    box-shadow: 3px 3px 2px #88878D;
+
+}
+.radius1{
+    height: 8px;
+    width: 202px;
+    background-color: white;
+    margin-top: -4px;   
+}
+.c1{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    margin-top: -12px;
+    margin-left: 200px;
+    background-color: orangered;
+    border-radius: 360px;
+    line-height: 35px;
+    font-size: small;
+    text-align: center;
+    color: white;
+    font: bold;
+}
+.box2{
+    height: 300px;
+    width: 350px;
+    border: 1px solid green;
+    margin-top: 9%;
+    float: left;
+    margin-left: 35%;
+    margin-top: -27%;
+    box-shadow: 3px 3px 2px #88878D;
+}
+.radius2{
+    height: 8px;
+    width: 250px;
+    background-color: orangered;
+    margin-top: -4px;
+}
+.c2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    margin-top: -17px;
+    margin-left: 250px;
+    background-color: orangered;
+    border-radius: 360px;
+    line-height: 35px;
+    font-size: small;
+    text-align: center;
+    color: white;
+    font: bold;
+}
+.box3{
+    height: 300px;
+    width: 350px;
+    /* border: 1px solid blue; */
+    margin-top: 9%;
+    float: left;
+    margin-left: 69%;
+    margin-top: -27%;
+    box-shadow: 3px 3px 2px #88878D;
+}
+.radius3{
+    height: 8px;
+    width: 285px;
+    background-color: orangered;
+    margin-top: -4px;
+}
+.c3{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    margin-top: -17px;
+    margin-left: 285px;
+    background-color: orangered;
+    border-radius: 360px;
+    line-height: 35px;
+    font-size: small;
+    text-align: center;
+    color: white;
+    font: bold;
+}
+h2{
+    float: left;
+}
+.icons{
+    height: 220px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgba(1,1 , 1, 1);
+
+}
+.row{
+    height: 200px;
+    width: 90%;
+    /* border: 1px solid white; */
+    
+    color: orangered;
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    color: white;
+}
+.about{
+    height: 590px;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+.b1{
+   height: 580px;
+   width: 35%;
+   border: 1px solid white;
+   margin-top: 40px;
+   margin-left: 80px;    
+}
+.b2{
+    height: 400px;
+    width: 50%;
+    /* border: 1px solid yellowgreen; */
+    margin-left: 540px;
+    margin-top: -520px;
+}
+.ba{
+    height: 170px;
+    width: 45%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: -260px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+.bb{
+    height: 170px;
+    width: 45%;
+    /* border: 1px solid blanchedalmond; */
+    float: left;
+    margin-top: -260px;
+    margin-left: 330px;
+    box-shadow: 5px 5px 5px gray;
+}
+.bc{
+    height: 170px;
+    width: 45%;
+    /* border: 1px solid blue; */
+    float: left;
+    margin-top: -40px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+.bd{
+    height: 170px;
+    width: 45%;
+    /* border: 1px solid green; */
+    float: left;
+    margin-top: -170px;
+    margin-left: 330px;
+    box-shadow: 5px 5px 5px gray;
+}
+.b1 h3{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.course{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+.ban2{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid green; */
+    background-image: url(/asset/banner2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg{
+    height: 250px;
+    width: 50%;
+    background-color: rgba(1,1 , 1, 0.8);
+    border: 1PX SOLID black;
+}
+
+.container2{
+    height: 750px;
+    width: 100%;
+    /* border: 1px solid green; */
+    background-color: white;
+}
+.b5{
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(/asset/advance\ excle\ \(1\).jpg);
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px red;
+    border-radius: 40px 0px 40px;
+}
+.b6{
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url(/asset/BBA1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px #88878D;
+    border-radius: 40px 0px 40px;
+}
+.b7{
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url(/asset/digital\ marketing\ \(1\).jpg);
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px green;
+    border-radius: 40px 0px 40px;
+}
+.b8{
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url(/asset/web\ design\ \(1\).jpg);
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px green;
+    border-radius: 40px 0px 40px;
+}
+.b9{
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url(/asset/english\ language\ \(1\).jpg);
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px #88878D;
+    border-radius: 40px 0px 40px;
+}
+.b10{
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url(/asset/Graphic-Designing1-1024x614\ \(1\).jpg);
+    background-repeat:  no-repeat;
+    box-shadow: 5px 5px 5px red;
+    border-radius: 40px 0px 40px;
+}
+.our{
+    display: flex;
+    justify-content: center;
+
+}
+.our:hover{
+    color: aqua;
+}
+h3{
+    text-align: center;
+    color: #88878D;
+    font-family: sans-serif;
+}
+h3:hover{
+    color: orangered;
+}
+.ban1{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.ban3{
+    height: 280px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(/asset/bg_school.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ban{
+    height: 280px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.container0{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(/asset/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 20px; */
+    background-attachment: fixed;
+}
+.rowaa{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgba(1,1 , 1, 2);
+}
+.boxa{
+    height: 400px;
+    width: 20%;
+    /* border: 1px solid orangered; */
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    
+}
+.boxb{
+    height: 400px;
+    width: 23%;
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ol li{
+    margin-left: -31px;
+    margin-top: 50px;
+    color: white;
+}
+
+.boxc{
+    height: 400px;
+    width: 20%;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boxd{
+    height: 400px;
+    width: 23%;
+    /* border: 1px solid yellow; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ul li{
+    margin-left: -40px;
+}
+p{
+    color: white;
+    margin-top: 20px;
+}
+.b4 ul li{
+    color: white;
+}
+.b4 ul li:hover{
+    background-color: orangered;
+}
+h4{
+    color: aqua;
+}
+h4:hover{
+    color: orangered;
+}
+h2:hover{
+    color: aqua;
+}
+/* .col-3 p{
+    color: green;
+}
+.col-3 p:hover{
+    color: magenta;
+} */
+/* .col-3 h3:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    color: orangered;
+} */
+.social{
+    height: 50px;
+    width: 150px;
+    /* border: 1px solid orange; */
+    margin-top: 250px;
+    margin-left: 40px;
+}
+ol li:hover{
+    background-color: aqua;
+    color: orangered;
+}
+.footer{
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid orangered; */
+    background-color: #ff5300;
+}
+.container0 p:hover{
+    color: aqua;
+}
+
+
+

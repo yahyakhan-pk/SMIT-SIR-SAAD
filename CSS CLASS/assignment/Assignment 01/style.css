@@ -1,0 +1,25 @@
+*{
+    background-color: black;
+    color: white;
+    letter-spacing: 40px;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.container{
+    width: 40%;
+    margin:0 auto;
+    margin-top: 50px;
+}
+h4{
+    margin-top: 10px;
+}
+.line{
+    height: 10px;
+    width: 90%;
+    background-color: rgb(24, 196, 142);
+    margin-top: -20px;
+}
+
+

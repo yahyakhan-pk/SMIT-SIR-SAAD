@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    gap: 50px;
+}
+
+.nav h1 {
+    margin: 0 250px 0 0;
+    font-size: 24px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content{
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.textbox{
+    height: 300px;
+    width: 35%;
+    border: 2px solid white;
+}
+.imagebox{
+    height: 300px;
+    width: 45%;
+    border: 2px solid black;
+}
+.para1{
+    text-align: justify;
+}
+button{
+    height: 40px;
+    width: 50%;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: orange;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.box-container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.box{
+    height: 350px;
+    width: 25%;
+    border: 2px solid green;
+}
+.image{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+.para2{
+    text-align: justify;
+    font-size: 12px;
+}
+.btn{
+    height: 30px;
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: orange;
+}
+.btn:hover{
+    background-color: black;
+    color: orange;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.coloumn1{
+    height: 300px;
+    width: 25%;
+    border: 2px solid white;
+}
+.coloumn2{
+    height: 300px;
+    width: 35%;
+    border: 2px solid orange;
+}
+h4{
+    color: white;
+}
+.para3{
+    color: gray;
+}
+
+.coloumn3 {
+    height: 300px;
+    width: 15%;
+    border: 2px solid green;
+}
+
+#social-link {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin: 10px;
+}
+
+#social-link a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px; 
+}
+
+#social-link img {
+    height: 28px;
+}
+
+.date-box{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    text-align: center;
+}
+.date-box strong{
+    font-weight: bold;
+    font-size: 20px;
+}
+.date-box span{
+    font-size: 12px;
+}
+.date{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    height: 40px;
+    width: 100%;
+}
+.para4{
+    text-align: center;
+}

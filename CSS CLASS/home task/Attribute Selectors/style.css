@@ -1,0 +1,24 @@
+/* p[class]{
+    color: red;
+} */
+
+ /* p[class="p1"]{
+    background-color: yellow;
+    color: red;
+}  */
+
+
+/* p[class~="dog"]{
+    border: 2px solid red;
+  } */
+  
+   /* p[id*="hot"] {
+    font-weight: bold;
+  }  */
+
+
+  p[id$="g"] {
+    text-decoration: underline;
+  }
+  
+  

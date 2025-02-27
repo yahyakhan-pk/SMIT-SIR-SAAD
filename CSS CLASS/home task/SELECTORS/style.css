@@ -1,0 +1,16 @@
+/* div>h2, p{
+    color: green;
+} */
+
+/* div ul li{
+    background-color: pink;
+    color: blu;
+} */
+
+/* div+p{
+    color: red;
+} */
+
+div~p{
+    color: red;
+}

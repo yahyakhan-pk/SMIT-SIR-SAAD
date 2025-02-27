@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: center;
+            max-width: fit-content;
+            padding: 10px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        h1{
+            color: gray;
+        }
+        input{
+            outline: none;
+        }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+        <h1>Caluculator</h1>
+
+        <div>
+            <input readonly type="text" name="" id="inp" onfocus="removeZero()" oninput="checkZero()" />
+            <hr> 
+            <button onclick="clrall()">clear all</button>
+            <button onclick="clr()">clear</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="btnClick(9)">9</button>
+            <button onclick="btnClick(8)">8</button>
+            <button onclick="btnClick(7)">7</button>
+            <button onclick="btnClick('-')">-</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="btnClick(6)">6</button>
+            <button onclick="btnClick(5)">5</button>
+            <button onclick="btnClick(4)">4</button>
+            <button onclick="btnClick('+')">+</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="btnClick(3)">3</button>
+            <button onclick="btnClick(2)">2</button>
+            <button onclick="btnClick(1)">1</button>
+            <button onclick="btnClick('*')">x</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="btnClick(0)">0</button>
+            <button onclick="btnClick('.')">.</button>
+            <button onclick="btnClick('/')">/</button>
+            <button onclick="eq()">=</button>
+        </div>
+    </div>
+       
+    <script src="app.js"></script>
+  </body>
+</html>
