@@ -6,10 +6,4 @@ https://web-bloom.netlify.app/
 <br>
 https://portfolio-yahyakhan.netlify.app/###
 <br>
-https://portfolio-yahyakhan.netlify.app/portfolio-details
-<br>
-https://portfolio-yahyakhan.netlify.app/portfolio-details
-<br>
-https://portfolio-yahyakhan.netlify.app/##
-<br>
 https://yk-calculator.netlify.app/
